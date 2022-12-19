@@ -25,6 +25,10 @@ module.exports = {
     fontFamily: {
       'unbounded': ['Unbounded'],
     },
+    // '5.5/12' : '45.666667%',
+    spacing: {
+      '5.5/12' : '45.666667%',
+    }
   },
   plugins: [],
 }

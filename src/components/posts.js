@@ -1,8 +1,10 @@
-export default function Posts (){
+export default function Posts() {
     return (
-        <div className="bg-red-600 w-12 flex flex-col absolute h-screen top-0">
-            {/* <p>Aloou!!</p> */}
-        </div>
+        <div className="bg-black text-white text-center h-screen shadow-sm">
+            <div className="w-44 mx-auto flex flex-col">
+                oi
 
+            </div>
+        </div>
     )
 }
