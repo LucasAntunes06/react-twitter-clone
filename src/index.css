@@ -1,9 +1,5 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-
-:root {
-  --black: #fffff,
-    --blue: rgb(29, 155, 240),
-    --gray:,
+body{
+  color: white;
 }
 
 * {
@@ -13,55 +9,15 @@
   margin: 0;
 }
 
-body {
-  margin: 0;
-  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #ffffff;
-  background: rgb(0, 0, 0);
-}
-
 .side-bar-container {
-  /* border-right: solid 0.5rem gray; */
-  /* height: 100vh; */
-  /* width: 20rem; */
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* justify-content: center; */
   flex-grow: 1;
   font-weight: 700;
   transform: color;
   transition-duration: 0.2s;
 }
-
-/*
-.bi-twitter{
-  color: white;
-  height: 1rem;
-}
-
-.side-bar-container li:hover{
-  background: gray;
-  border-radius: 50px;
-  transition: 0.2s;
-}  */
-
 #profile {
   background-image: url(https://twirpz.files.wordpress.com/2015/06/twitter-avi-gender-balanced-figure.png?w=640);
   background-size: contain;
-}
-
-.border-gray {
-  border-color: #2f3336;
-}
-
-.bg-gray-100{
-  background:#202327 !important;
-}
-
-.bg-gray-200{
-  background:#16181c !important;
 }
 
 .text-active:active {
@@ -71,9 +27,4 @@ body {
 
 .text-active {
   cursor: text;
-}
-
-.font-side {
-  font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  font-weight: 700;
 }

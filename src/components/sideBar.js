@@ -1,11 +1,11 @@
 export default function SideBar() {
     return (
-        <div className="side-bar-container w-72 bg-black border-r-2 h-screen
+        <div className="side-bar-container w-72 bg-black h-screen border border-border
         flex flex-col items-center">
 
             <div className="flex flex-col items-center">
                 <ul className="text-white">
-                    <li className="mb-6 w-12 flex items-center justify-center h-12 cursor-pointer hover:bg-stone-900 hover: rounded-full h-10 p-1">
+                    <li className="mb-6 w-12 flex items-center justify-center h-12 cursor-pointer hover:bg-stone-900 hover: rounded-full p-1">
                         <i className="bi bi-twitter text-3xl"></i>
                     </li>
 
@@ -58,7 +58,7 @@ export default function SideBar() {
                     </li>
                 </ul>
 
-                <div className="bg-sky-500 p-2 rounded-full my-4 w-40 text-center
+                <div className="bg-twitter-blue p-2 rounded-full my-4 w-40 text-center
             cursor-pointer">
                     Tweetar
                 </div>
