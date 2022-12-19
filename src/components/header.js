@@ -1,9 +1,9 @@
 export default function Header() {
     return (
         <div className=" top-0 fixed z-10 flex flex-row justify-between w-5.5/12
-         bg-black backdrop-blur-sm pl-12 h-14 side-bar-container
+         bg-black backdrop-blur-sm h-14 side-bar-container
          ">
-            <p className="text-xl font-extrabold px-4 py-3
+            <p className="text-xl font-extrabold mx-5 py-3
             text-white">Tweets Mais Recentes</p>
             
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" 

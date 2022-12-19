@@ -9,12 +9,12 @@ import Trend from "./components/trend"
 
 function App() {
   return (
-    <div className="bg-neutral-900 font-sans flex flex-row">
+    <div className="bg-black flex flex-row">
       <div className="w-12">
         <SideBar />
       </div>
 
-      <div className="bg-red-600 h-screen w-96 mx-auto z-0">
+      <div className="bg-black h-screen w-96 mx-auto z-0">
         {/* <Posts /> */}
         <Header />
       </div>

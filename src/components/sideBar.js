@@ -18,60 +18,60 @@ export default function SideBar() {
                     <li className="cursor-pointer hover:bg-stone-900 hover: rounded-full h-10 p-4
                     flex flex-row items-center gap-x-4">
                         <i className="bi bi-hash text-2xl mr-2"></i>
-                        <a className="text-xl">Explorar</a>
+                        <a className="text-xl font-normal">Explorar</a>
                     </li>
 
                     <li className="cursor-pointer hover:bg-stone-900 hover: rounded-full h-10 p-4
                     flex flex-row items-center gap-x-4">
                         <i className="bi bi-bell text-2xl mr-2"></i>
-                        <a className="text-xl">Notificações</a>
+                        <a className="text-xl font-normal">Notificações</a>
                     </li>
 
                     <li className="cursor-pointer hover:bg-stone-900 hover: rounded-full h-10 p-4
                     flex flex-row items-center gap-x-4">
                         <i className="bi bi-envelope text-2xl mr-2"></i>
-                        <a className="text-xl">Mensagens</a>
+                        <a className="text-xl font-normal">Mensagens</a>
                     </li>
 
                     <li className="cursor-pointer hover:bg-stone-900 hover: rounded-full h-10 p-4
                     flex flex-row items-center gap-x-4">
                         <i className="bi bi-bookmark text-2xl mr-2"></i>
-                        <a className="text-xl">Itens Salvos</a>
+                        <a className="text-xl font-normal">Itens Salvos</a>
                     </li>
 
                     <li className="cursor-pointer hover:bg-stone-900 hover: rounded-full h-10 p-4
                     flex flex-row items-center gap-x-4">
                         <i className="bi bi-list-check text-2xl mr-2"></i>
-                        <a className="text-xl">Listas</a>
+                        <a className="text-xl font-normal">Listas</a>
                     </li>
 
                     <li className="cursor-pointer hover:bg-stone-900 hover: rounded-full h-10 p-4
                     flex flex-row items-center gap-x-4">
                         <i className="bi bi-person text-2xl mr-2"></i>
-                        <a className="text-xl">Perfil</a>
+                        <a className="text-xl font-normal">Perfil</a>
                     </li>
 
                     <li className="cursor-pointer hover:bg-stone-900 hover: rounded-full h-10 p-4
                     flex flex-row items-center gap-x-4">
                         <i className="bi bi-three-dots text-2xl mr-2"></i>
-                        <a className="text-xl">Mais</a>
+                        <a className="text-xl font-normal">Mais</a>
                     </li>
                 </ul>
 
-                <div className="bg-twitter-blue p-2 rounded-full my-4 w-40 text-center
+                <div className="bg-twitter-blue py-2 rounded-full my-4 w-48 text-center
             cursor-pointer text-white">
                     Tweetar
                 </div>
 
-                <div className="flex flex-row gap-2 items-center hover:bg-neutral-900 
-                hover:rounded-full p-2 cursor-pointer text-white">
+                <div className="flex flex-row justify-between gap-2 items-center hover:bg-neutral-900 
+                hover:rounded-full p-2 cursor-pointer text-white w-48">
                     <div id="profile" className="h-8 w-8 rounded-full"></div>
                     <div>
                         <div className="flex fle-col">
                             <p>User0123</p>
                             <i className="bi bi-lock-fill"></i>
                         </div>
-                        <p className="text-neutral-500 text-sm">@user0123</p>
+                        <p className="text-neutral-500 text-sm font-normal">@user0123</p>
                     </div>
                     <i className="bi bi-three-dots text-lg"></i>
                 </div>
